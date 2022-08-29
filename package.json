@@ -1,0 +1,23 @@
+{
+    "name": "enact-project",
+    "version": "1.0.0",
+    "description": "An enact-based sample project",
+    "author": "LG Electronics, Inc.",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "enact test",
+        "coverage": "npm test -- --coverage"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://mod.lge.com/hub/yocto/sample/enact-project.git"
+    },
+    "keywords": [
+        "sample"
+    ],
+    "license": "MIT",
+    "dependencies": {
+	"@enact/cli": "^4.1.7",
+	"@enact/core": "^4.0.1"
+    }
+}
