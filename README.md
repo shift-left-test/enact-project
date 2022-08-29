@@ -1,3 +1,3 @@
 # enact-project
 
-A enact-based sample project
+An enact-based sample project
