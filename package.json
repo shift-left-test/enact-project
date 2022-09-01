@@ -17,7 +17,6 @@
     ],
     "license": "MIT",
     "dependencies": {
-	"@enact/cli": "^4.1.7",
-	"@enact/core": "^4.0.1"
+	"@enact/cli": "^4.1.7"
     }
 }
