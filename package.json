@@ -5,6 +5,7 @@
     "author": "LG Electronics, Inc.",
     "main": "src/index.js",
     "scripts": {
+        "lint": "enact lint",
         "test": "enact test",
         "coverage": "npm test -- --coverage"
     },
@@ -17,7 +18,8 @@
     ],
     "license": "MIT",
     "dependencies": {
-        "@enact/cli": "^4.1.7"
+        "@enact/cli": "^4.1.7",
+        "jest-junit": "^14.0.1"
     },
     "devDependencies": {
         "eslint": "^8.23.1",
