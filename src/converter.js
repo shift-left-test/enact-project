@@ -4,14 +4,14 @@
  */
 
 export const toBits = (value, prefix = true) => {
-    let result = 0;
+    let bits = 0;
     let remainder = 0;
     let i = 1;
-    while (value != 0) {
+    while (value !== 0) {
         remainder = value % 2;
         value = parseInt(value / 2);
-        result = result + remainder * i;
+        bits = bits + remainder * i;
         i = i * 10;
     }
-    return (prefix ? "0x" : "") + result.toString();
+    return (prefix ? "0x" : "") + bits.toString();
 }
