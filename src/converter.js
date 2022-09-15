@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-export const toBits = (value) => {
+export const toBits = (value, prefix = true) => {
     let result = 0;
     let remainder = 0;
     let i = 1;
@@ -13,5 +13,5 @@ export const toBits = (value) => {
         result = result + remainder * i;
         i = i * 10;
     }
-    return result.toString();
+    return (prefix ? "0x" : "") + result.toString();
 }
